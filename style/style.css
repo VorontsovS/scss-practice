@@ -1,0 +1,94 @@
+.container-main {
+	width: 100vw;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.top-block {
+	width: 100vw;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.center-block {
+	width: 100vw;
+}
+
+.bottom-block {
+	width: 100vw;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.size-smaller {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+.size-small {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.size-middle {
+	width: 200px;
+	height: 200px;
+	margin: 10px;	
+}
+
+.size-big {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+.color-red {
+	background-color: red;
+}
+
+.color-green {
+	background-color: green;
+}
+
+.color-yellow {
+	background-color: yellow;
+}
+
+.bm-parameter {
+	background-image: url(../img/B.jpg);
+	border-radius: 50%;
+	background-position: center center;
+	background-size: auto 100%;
+	align-self: flex-end;
+}
+
+.finger-up {
+	background-image: url(../img/up.jpg);
+	background-position: center center;
+	background-size: auto 100%;
+}
+
+button:hover {
+	background-color: yellow;
+	border: 5px solid green;
+}
+
+@media screen and (max-width: 200px) {
+	.size-smaller {
+	width: 100px;
+	height: 100px;
+	order: 2;
+	}
+}

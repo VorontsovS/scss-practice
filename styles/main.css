@@ -1,0 +1,124 @@
+header {
+  background-image: url(../img/bgi.jpg);
+  min-height: 642px;
+  background-repeat: repeat-x;
+  background-position: top center;
+  position: relative;
+  font-family: "Arial";
+}
+
+header .head-top {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+          box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+header .head-top a {
+  color: #fff;
+  font-size: 21px;
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+}
+
+header .head-top a :hover {
+  border-bottom: 1px dashed transparent;
+}
+
+header .head-top .head-top-left {
+  width: 30vw;
+  padding-top: 30px;
+  padding-left: 60px;
+  min-width: 200px;
+}
+
+header .head-top .head-top-left strong {
+  color: #d12f22;
+  display: block;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header .head-top .head-top-center {
+  width: 40vw;
+  position: relative;
+}
+
+header .head-top .head-top-center .logo-wrap {
+  position: relative;
+  width: 255px;
+  margin: auto;
+}
+
+header .head-top .head-top-center .logo-wrap .logo {
+  border-bottom: none;
+  position: absolute;
+  margin: auto;
+}
+
+header .head-top .head-top-right {
+  width: 30vw;
+  padding-top: 30px;
+  padding-right: 60px;
+  min-width: 200px;
+  text-align: right;
+}
+
+header .head-top .head-top-right strong {
+  color: #d12f22;
+  display: block;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header .head-top .head-top-right strong span {
+  color: #fff;
+}
+
+.test {
+  border: 5px solid green;
+}
+
+.test span {
+  color: #00ff00;
+}
+
+.test span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.test .test1, .test .test2 {
+  color: #ffff00;
+}
+
+.test .test1:hover, .test .test2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.test .test1 {
+  font-size: 50px;
+  border: 10px solid #455646;
+}
+
+.test .test2 {
+  font-size: 2em;
+}
+
+.testo {
+  font-size: 8em;
+}
+/*# sourceMappingURL=main.css.map */

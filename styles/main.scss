@@ -1,0 +1,123 @@
+$head-block-width: 200px;
+
+header {
+    background-image: url(../img/bgi.jpg);
+    min-height: 642px;
+    background-repeat: repeat-x;
+    background-position: top center;
+    position: relative;
+    font-family: "Arial";
+
+    .head-top {
+        background-color: rgba(0,0,0,.6);
+        min-height: 100px;
+        box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+
+        a {
+            color: #fff;
+            font-size: 21px;
+            border-bottom: 1px dashed #fff;
+            text-decoration: none;
+            & :hover {
+                border-bottom: 1px dashed transparent;
+            }
+        }
+
+        .head-top-left {
+            width: 30vw;
+            padding-top: 30px;
+            padding-left: 60px;
+            min-width: #{$head-block-width};
+
+            strong {
+                color: #d12f22;
+                display: block;
+                font-weight: normal;
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+
+        .head-top-center {
+            width: 40vw;
+            position: relative;
+
+            .logo-wrap {
+                position: relative;
+                width:255px;
+                margin: auto;
+
+                .logo {
+                    border-bottom: none;
+                    position: absolute;
+                    margin: auto;
+                }
+            }
+        }
+
+        .head-top-right {
+            width: 30vw;
+            padding-top: 30px;
+            padding-right: 60px;
+            min-width: #{$head-block-width};
+            text-align: right;
+
+            strong {
+                color: #d12f22;
+                display: block;
+                font-weight: normal;
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: bold;
+
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+$font-size-0: 10px;
+$font-size-1: #{$font-size-0 * 5};
+$font-size-2: #{$font-size-0 * 2};
+
+.test {
+    border: 5px solid green;
+
+    span {
+    color: #00ff00;
+        &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        }
+    }
+
+    .test1, .test2 {
+        color: #ffff00;
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            }
+    }
+
+    .test1 {
+        font-size: #{$font-size-1};
+        border: 10px solid #455646
+    }
+
+    .test2 {
+        font-size: 2em;
+    }
+}
+
+.testo {
+    font-size: 8em;    
+}
